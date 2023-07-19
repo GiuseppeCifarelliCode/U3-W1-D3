@@ -42,6 +42,11 @@ class Edilizia extends Lavoratore{
 class Mario extends Lavoratore {
     constructor() {
         super('Mario il fortunato', 0, 1000000, 0, 0)
+        console.log('Tasse INPS di Mario',this.getTasseInps)
+        console.log('Tasse IRPEF di Mario',this.tasseIrpef);
+        console.log('Mario non paga le tasse');
+        
+        
     }
 }
 
